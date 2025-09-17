@@ -64,7 +64,7 @@
   margin-bottom: 28px;
 }
 
-.header__title__span_accent {
+.header__title--accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
