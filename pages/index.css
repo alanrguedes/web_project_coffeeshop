@@ -19,7 +19,7 @@
   max-height: 800px;
 }
 
-.navbar {
+.nav {
   display: flex;
   justify-content: space-between;
   padding-left: 30px;
@@ -27,18 +27,18 @@
   padding-right: 80px;
 }
 
-.navbar__logo {
+.nav__logo {
   width: 105px;
   height: 39px;
 }
 
-.navbar__menu {
+.nav__menu {
   display: flex;
   list-style: none;
   gap: 20px;
 }
 
-.navbar__link {
+.nav__links {
   text-decoration: none;
   color: #000000;
   font-style: normal;
@@ -48,7 +48,6 @@
 }
 
 .header__content {
-  display: flex;
 }
 
 .header__title {
@@ -65,7 +64,7 @@
   margin-bottom: 28px;
 }
 
-.header__title__span-accent {
+.header__title__span_accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -109,16 +108,9 @@
   align-items: center;
 }
 
-.header__footer-time {
-  list-style: none;
+.header__paragraph {
   padding: 0;
-}
-
-.header__footer-paragraph {
-  padding: 0;
-}
-
-.content {
+  margin: 0;
 }
 
 .recipes {
@@ -163,7 +155,7 @@
   gap: 40px;
 }
 
-.recipes__item {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   padding-bottom: 24px;
