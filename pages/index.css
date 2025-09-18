@@ -32,13 +32,13 @@
   height: 39px;
 }
 
-.nav__menu {
+.nav__links {
   display: flex;
   list-style: none;
   gap: 20px;
 }
 
-.nav__links {
+.nav__link {
   text-decoration: none;
   color: #000000;
   font-style: normal;
