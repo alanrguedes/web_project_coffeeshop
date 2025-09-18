@@ -47,9 +47,6 @@
   line-height: 20px;
 }
 
-.header__content {
-}
-
 .header__title {
   display: block;
   font-family: "Inter";
@@ -64,7 +61,7 @@
   margin-bottom: 28px;
 }
 
-.header__title--accent {
+.span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
