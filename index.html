@@ -111,39 +111,43 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="reservation__form">
+          <form class="form reservation__form">
             <div class="reservation__form-fieldset">
-              <label class="form__label" for="nome"> Nome </label>
+              <label class="reservation__form-label" for="nome"> Nome </label>
               <input
-                class="form__input"
+                class="reservation__form-input"
                 type="text"
                 name="name"
                 placeholder="Nome"
                 required
                 id="nome"
               />
-              <label class="form__label" for="convidados">
+              <label class="reservation__form-label" for="convidados">
                 Número de Convidados
               </label>
               <input
-                class="form__input"
+                class="reservation__form-input"
                 type="number"
                 name="convidados"
                 placeholder="1-8"
                 required
                 id="convidados"
               />
-              <label class="form__label" for="data"> Data e Hora </label>
+              <label class="reservation__form-label" for="data">
+                Data e Hora
+              </label>
               <input
-                class="form__input"
+                class="reservation__form-input"
                 type="date"
                 name="data"
                 required
                 id="data"
               />
-              <label class="form__label" for="email"> Seu e-mail </label>
+              <label class="reservation__form-label" for="email">
+                Seu e-mail
+              </label>
               <input
-                class="form__input"
+                class="reservation__form-input"
                 type="email"
                 name="email"
                 required
@@ -152,18 +156,18 @@
               />
             </div>
 
-            <button class="form__submit" type="submit">
+            <button class="reservation__form-submit" type="submit">
               Reservar uma mesa
             </button>
 
-            <div class="form__checkbox">
+            <div class="reservation__form-checkbox">
               <input
-                class="form__checkbox-input"
+                class="reservation__form-checkbox-input"
                 type="checkbox"
                 name="newsletter"
                 id="newsletter"
               />
-              <label class="form__checkbox-label" for="newsletter">
+              <label class="reservation__form-checkbox-label" for="newsletter">
                 Eu concordo com os termos de uso
               </label>
             </div>
