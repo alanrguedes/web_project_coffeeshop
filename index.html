@@ -63,13 +63,11 @@
         />
 
         <div class="header__footer">
-          <span
-            ><p class="header__paragraph">Horários:</p>
+          <div></div>
+            <p class="header__paragraph">Horários:</p>
             <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
-            <p class="header__paragraph">
-              Sábado a domingo (11:00 - 18:00)
-            </p></span
-          >
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
           <p class="header__paragraph">
             200 Success Avenue, a cidade de Triple Peaks
           </p>
@@ -114,7 +112,7 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="reservation__form">
-            <form class="form__fieldset">
+            <div class="form__fieldset">
               <label class="form__label" for="nome"> Nome </label>
               <input
                 class="form__input"
@@ -152,13 +150,13 @@
                 id="email"
                 placeholder="email@email.com"
               />
-            </form>
-            <form class="form__button">
-              <button class="form__submit" type="submit">
-                Reservar uma mesa
-              </button>
-            </form>
-            <form class="form__checkbox">
+            </div>
+
+            <button class="form__submit" type="submit">
+              Reservar uma mesa
+            </button>
+
+            <div class="form__checkbox">
               <input
                 class="form__checkbox-input"
                 type="checkbox"
@@ -168,6 +166,7 @@
               <label class="form__checkbox-label" for="newsletter">
                 Eu concordo com os termos de uso
               </label>
+            </div>
           </form>
         </section>
       </main>
